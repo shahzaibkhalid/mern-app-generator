@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+
+.main-heading {
+  font-size: 40px;
+}
+.secondary-heading {
+  font-size: 20px;
+}
+.photo {
+  widows: 300px;
+  height: 300px;
+}
+.paragraph {
+  font-size: 14px;
+  color: black;
+}
