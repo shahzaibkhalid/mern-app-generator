@@ -20,12 +20,12 @@
   "author": "Shahzaib Khalid",
   "license": "MIT",
   "dependencies": {
-    
-  },
-  "devDependencies": {
+    "fs-extra": "^4.0.2",
+    "get-installed-path": "^4.0.8",
+    "node-cmd": "^3.0.0"
   },
   "bugs": {
     "url": "https://github.com/shahzaibkhalid/mern-app-generator/issues"
   },
-  "homepage": "https://github.com/shahzaibkhalid/modaljs/blob/master/README.md"
+  "homepage": "https://github.com/shahzaibkhalid/mern-app-generator/blob/master/README.md"
 }
