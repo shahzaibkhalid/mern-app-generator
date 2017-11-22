@@ -8,7 +8,8 @@
     "server-dev": "opn http://localhost:8000 && nodemon ./app/server/public/server.js localhost 8000",
     "start": "node ./app/server/public/server.js",
     "build": "webpack -p",
-    "heroku-postbuild": "npm install --only=dev && npm install && npm run build"
+    "heroku-postbuild": "npm install --only=dev && npm install && npm run build",
+    "test": "node index.js hello"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,17 @@
   "engines": {
     "node": "8.5.0"
   },
+  "bin": {
+    "mern-app-generator": "./index.js"
+  },
   "author": "Shahzaib Khalid",
   "license": "MIT",
   "dependencies": {
+    "commander": "^2.11.0",
     "fs-extra": "^4.0.2",
     "get-installed-path": "^4.0.8",
-    "node-cmd": "^3.0.0"
+    "node-cmd": "^3.0.0",
+    "universalify": "^0.1.1"
   },
   "bugs": {
     "url": "https://github.com/shahzaibkhalid/mern-app-generator/issues"
