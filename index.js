@@ -29,6 +29,10 @@ if (projectName !== undefined) {
   files.forEach(file => {
     fs.copySync(path.join(pathOfInstalledModule, 'project', file), (path.join(currentPath, projectName, file)));
   });
+  fs.mkdirSync(path.join(currentPath, projectName, 'build'));
+  fs.mkdirSync(path.join(currentPath, projectName, 'deploy'));
+  fs.mkdirSync(path.join(currentPath, projectName, 'app', 'server', 'src'));
+  fs.removeSync('.npmignore');
   console.log();
   console.log(chalk.blue.bgGreenBright(`Your project `) + chalk.black.bgGreenBright(projectName) + chalk.blue.bgGreenBright(' is generated.'));
 
