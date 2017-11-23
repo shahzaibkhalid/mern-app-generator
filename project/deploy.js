@@ -24,7 +24,7 @@ files.forEach(file => {
       silent: true,
     });
     replace({
-      regex: "/require('dotenv').config();/g",
+      regex: "require('dotenv').config();",
       replacement: "//require('dotenv').config();",
       paths: [`${path.join(__dirname, 'deploy', 'app')}`],
       recursive: true,
