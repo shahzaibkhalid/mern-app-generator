@@ -29,7 +29,7 @@ if (projectName !== undefined) {
     fs.copySync(path.join(pathOfInstalledModule, 'project', file), (path.join(currentPath, projectName, file)));
   });
   console.log();
-  console.log(chalk.blue.bgGreenBright(`Your project`) + chalk.black.bgGreenBright(projectName) + chalk.blue.bgGreenBright(' is generated.'));
+  console.log(chalk.blue.bgGreenBright(`Your project `) + chalk.black.bgGreenBright(projectName) + chalk.blue.bgGreenBright(' is generated.'));
 
   let data = fs.readFileSync(path.join(currentPath, projectName, 'package.json'), 'utf-8');
 
@@ -39,7 +39,7 @@ if (projectName !== undefined) {
 
   fs.writeFileSync(path.join(currentPath, projectName, 'package.json'), data, 'utf-8');
   console.log();
-  console.log(chalk.blue.bgGreenBright(`Installing necessary node packages in`) + chalk.black(projectName) + chalk.blue.bgGreenBright('. Please wait...'));
+  console.log(chalk.blue.bgGreenBright(`Installing necessary node packages in `) + chalk.black.bgGreenBright(projectName) + chalk.blue.bgGreenBright('. Please wait...'));
   console.log();
   nodeCMD.get(
     ` cd ${projectName} && npm install
@@ -87,4 +87,5 @@ function printAfterInstallation() {
   console.log();
   console.log();
   console.log(chalk.blue.bgGreenBright('Happy Coding! :)'));
+  console.log();
 }

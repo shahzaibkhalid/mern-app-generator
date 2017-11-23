@@ -13,6 +13,10 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, '../../../build')));
 
+app.get('/', (req, res)=> {
+  res.send('Express server is up and running.');
+})
+
 //GET request to server
 app.get('/api', (req, res)=> {
   
