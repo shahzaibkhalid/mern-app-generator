@@ -29,7 +29,7 @@ if (projectName !== undefined) {
     fs.copySync(path.join(pathOfInstalledModule, 'project', file), (path.join(currentPath, projectName, file)));
   });
   console.log();
-  console.log(chalk.blue.bgGreenBright(`Your project`) + chalk.black(projectName) + chalk.blue.bgGreenBright(' is generated.'));
+  console.log(chalk.blue.bgGreenBright(`Your project`) + chalk.black.bgGreenBright(projectName) + chalk.blue.bgGreenBright(' is generated.'));
 
   let data = fs.readFileSync(path.join(currentPath, projectName, 'package.json'), 'utf-8');
 
