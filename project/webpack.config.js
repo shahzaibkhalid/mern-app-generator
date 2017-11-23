@@ -41,6 +41,8 @@ const config = {
     contentBase: "/app",
     hot: true,
     overlay: true,
+    port: 4000,
+    inline: true,
     open: 'http://localhost:4000'
   },
 }

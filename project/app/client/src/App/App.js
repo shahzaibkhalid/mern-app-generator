@@ -4,7 +4,7 @@ import Logo from '../../public/logo.svg'
 import './App.css';
 
 //GET request to server from client
-axios.get('/api/', {
+axios.get('http://localhost:8000/api/', {
   
 })
 .then(response => {
@@ -15,7 +15,7 @@ axios.get('/api/', {
 });
 
 //POST request to server from client
-axios.post('/api/', {
+axios.post('http://localhost:8000/api/', {
   
 })
 .then(response => {
@@ -26,7 +26,7 @@ axios.post('/api/', {
 });
 
 //PUT request to server from client
-axios.put('/api/', {
+axios.put('http://localhost:8000/api/', {
   
 })
 .then(response => {
@@ -37,7 +37,7 @@ axios.put('/api/', {
 });
 
 //DELETE request to server from client
-axios.delete('/api/', {
+axios.delete('http://localhost:8000/api/', {
   
 })
 .then(response => {

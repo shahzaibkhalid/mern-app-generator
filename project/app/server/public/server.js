@@ -1,4 +1,4 @@
-require('dotenv').config(); //dotenv is only meant for development, not for production, please remove this line for production
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const cors = require('cors');
