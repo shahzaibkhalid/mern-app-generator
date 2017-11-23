@@ -32,7 +32,7 @@ if (projectName !== undefined) {
   fs.mkdirSync(path.join(currentPath, projectName, 'build'));
   fs.mkdirSync(path.join(currentPath, projectName, 'deploy'));
   fs.mkdirSync(path.join(currentPath, projectName, 'app', 'server', 'src'));
-  fs.unlinkSync('.npmignore');
+  fs.removeSync('.npmignore');
   console.log();
   console.log(chalk.blue.bgGreenBright(`Your project `) + chalk.black.bgGreenBright(projectName) + chalk.blue.bgGreenBright(' is generated.'));
 
