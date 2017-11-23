@@ -1,6 +1,6 @@
 {
   "name": "mern-app-generator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Most simplest way to start and build scalable MERN apps.",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,7 @@
     "server-dev": "opn http://localhost:8000 && nodemon ./app/server/public/server.js localhost 8000",
     "start": "node ./app/server/public/server.js",
     "build": "webpack -p",
-    "heroku-postbuild": "npm install --only=dev && npm install && npm run build",
-    "test": "node index.js hello"
+    "heroku-postbuild": "npm install --only=dev && npm install && npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,6 +23,7 @@
   "author": "Shahzaib Khalid",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.3.0",
     "commander": "^2.11.0",
     "fs-extra": "^4.0.2",
     "get-installed-path": "^4.0.8",

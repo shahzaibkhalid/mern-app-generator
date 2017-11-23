@@ -13,18 +13,22 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, '../../../build')));
 
+//GET request to server
 app.get('/api', (req, res)=> {
   
 });
 
+//POST request to server
 app.post('/api', (req, res)=> {
 
 })
 
+//DELETE request to server
 app.delete('/api', (req, res)=> {
   
 })
 
+//PUT request to server
 app.put('/api', (req, res)=> {
   
 });
