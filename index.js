@@ -32,7 +32,8 @@ if (projectName !== undefined) {
   fs.mkdirSync(path.join(currentPath, projectName, 'build'));
   fs.mkdirSync(path.join(currentPath, projectName, 'deploy'));
   fs.mkdirSync(path.join(currentPath, projectName, 'app', 'server', 'src'));
-
+  fs.closeSync(fs.openSync(path.join(currentPath, projectName, '.gitignore'), 'w'));
+  fs.writeFileSync(path.join(currentPath, projectName, '.gitignore'), 'node_modules/\n.env', 'utf-8');
   console.log();
   console.log(chalk.blue.bgGreenBright(`Your project `) + chalk.black.bgGreenBright(projectName) + chalk.blue.bgGreenBright(' is generated.'));
 
