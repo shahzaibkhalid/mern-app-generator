@@ -1,12 +1,13 @@
 {
   "name": "mern-app-generator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Most simplest way to start and build scalable MERN apps.",
   "main": "index.js",
   "scripts": {
     "client-dev": "webpack-dev-server --port 4000 --hot --inline",
     "server-dev": "opn http://localhost:8000 && nodemon ./app/server/public/server.js localhost 8000",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "deploy": "mern-scripts deploy"
   },
   "repository": {
     "type": "git",
