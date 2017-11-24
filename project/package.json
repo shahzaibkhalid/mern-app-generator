@@ -6,12 +6,11 @@
   "scripts": {
     "client-dev": "webpack-dev-server --port 4000 --hot --inline",
     "server-dev": "opn http://localhost:8000 && nodemon ./app/server/public/server.js localhost 8000",
-    "start": "node ./app/server/public/server.js",
     "build": "webpack -p",
-    "heroku-postbuild": "npm install --only=dev && npm install && npm run build"
+    "deploy": "mern-scripts deploy"
   },
   "engines": {
-    "node": "8.5.0"
+    "node": "^8.5.0"
   },
   "author": "Shahzaib Khalid",
   "license": "MIT",
@@ -27,7 +26,7 @@
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
-    "mern-scripts": "0.0.1",
+    "mern-scripts": "^0.0.8",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
