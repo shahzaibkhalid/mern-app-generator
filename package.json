@@ -1,6 +1,6 @@
 {
   "name": "mern-app-generator",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Most simplest way to start and build scalable MERN apps.",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,9 @@
     "type": "git",
     "url": "https://github.com/shahzaibkhalid/mern-app-generator.git"
   },
-  "engines": {
-    "node": "8.5.0"
-  },
+  "keywords": [
+    "MERN App Generator","MERN Stack", "MongoDB", "ExpressJS", "ReactJS", "NodeJS"
+  ],
   "bin": {
     "mern-app-generator": "./index.js"
   },
