@@ -129,7 +129,7 @@ If you're getting started with MERN stack, you'll find that it's somewhat troubl
 - Manually preparing your application for deployment
 
 ## Report Bugs
-This project is relatively new so if you find any error, please consider [opening issues](https://github.com/shahzaibkhalid/mern-app-generator/issues).
+If you find any error at any stage of use, please consider [opening issues](https://github.com/shahzaibkhalid/mern-app-generator/issues).
 
 ## Contributing
 This project aims at covering wide areas related to whole MERN ecosystem and thus requires active contributors to maintain the project efficiently. If you want to contribute, write to me at `me@shahzaibkhalid.com`.
