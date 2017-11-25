@@ -27,7 +27,7 @@ MERN App Generator is truly unopinionated and doesn't force you to follow a spec
 - Application (both front-end React and back-end Express based API) is deployed to [Heroku](https://www.heroku.com).
 - React based front-end development server is hosted on port 4000 by default.
 - ExpressJS based back-end development server is hosted on port 8000 by default.
-- In development, there are two development servers, while in production, there's one server which listens for API related requests at `\api\` and React application at base `\` link.
+- In development, there are two development servers, while in production, there's one server which listens for API related requests at `\api\` and React application at base `\` path.
 
 ### Installation
 Install it once globally:
@@ -59,7 +59,6 @@ my-app
 ├── package-lock.json
 ├── deploy
 ├── build
-├── deploy
 └── app
     └── client
         └── public
