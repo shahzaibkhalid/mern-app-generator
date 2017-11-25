@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://shahzaibkhalid.github.io/modaljs">
-    <img alt="modal.js" src="https://raw.githubusercontent.com/shahzaibkhalid/mern-app-generator/master/static/logo.png" width="600"/>
+    <img alt="modal.js" src="https://raw.githubusercontent.com/shahzaibkhalid/mern-app-generator/master/static/logo.png" width="300"/>
   </a>
 </p>
 
