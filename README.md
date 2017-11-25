@@ -10,7 +10,7 @@
 MERN App Generator is a CLI-based tool that simplifies the process of creating, building and deploying MERN stack applications.
 
 ## Getting Started
-Below is a quick overview of how install MERN App Generator and how to create, build and deploy a MERN stack application from ground.
+Below is a quick overview of how to install MERN App Generator and how to create, build and deploy a MERN stack application from ground.
 
 ### Installation
 Install it once globally:
@@ -59,7 +59,7 @@ my-app
             └── server.js
         └── src
 ```
-No need to do manual configuration and simple folder structures, just the files you need to build your app.<br>
+No need to do manual configuration and folder structure is very simple and intuitive, just the files you need to build your app.<br>
 But note that all the configuration files are available with some default settings so that you can enhance your application according to your needs.
 
 Once the installation is done, you can run some commands inside the project folder:
@@ -95,7 +95,7 @@ In order to make a production build of your application:
 npm run build
 ```
 
-This will produce an optimized build of your application in build folder.
+This will produce an optimized build of your application in `build` folder.
 
 ### Deploy your application
 
