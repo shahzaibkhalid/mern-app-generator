@@ -9,6 +9,115 @@
 ## Introduction
 MERN App Generator is a CLI-based tool that simplifies the process of creating, building and deploying MERN stack applications.
 
+## Getting Started
+Below is a quick overview of how install MERN App Generator and how to create, build and deploy a MERN stack application from ground.
+
+### Installation
+Install it once globally:
+
+```sh
+npm install -g mern-app-generator
+```
+### Creating an App
+
+To create a new app, run:
+
+```sh
+mern-app-generator my-app
+cd my-app
+```
+
+It will create a directory called `my-app` inside the current folder.<br>
+Inside that directory, it will generate the initial project structure and install the transitive dependencies:
+
+```
+my-app
+├── webpack.config.js
+├── node_modules
+├── package.json
+├── .gitignore
+├── .babelrc
+├── .npmignore
+├── package-lock.json
+├── deploy
+├── build
+├── deploy
+└── app
+    └── client
+        └── public
+            └── favicon.ico
+            └── index.html
+            └── index.js
+            └── logo.svg
+        └── src
+            └── App
+                └── App.js
+                └── App.css
+    └── server
+        └── public
+            └── server.js
+        └── src
+```
+No need to do manual configuration and simple folder structures, just the files you need to build your app.<br>
+But note that all the configuration files are available with some default settings so that you can enhance your application according to your needs.
+
+Once the installation is done, you can run some commands inside the project folder:
+
+### Run client development server
+
+In order to run the client-development server:
+
+```sh
+npm run client-dev
+```
+
+This will automatically open the local development server at [http://localhost:4000](http://localhost:4000).
+
+The page will automatically reload if you make changes to the code.<br>
+You will see the build errors and lint warnings in the console.
+
+### Run back-end development server
+
+In order to run the back-end development server:
+
+```sh
+npm run server-dev
+```
+This will automatically open the back-end Express.js server at [http://localhost:8000](http://localhost:8000).
+This back-end development server will communicate the client development server running at port 4000.
+
+### Build an application
+
+In order to make a production build of your application:
+
+```sh
+npm run build
+```
+
+This will produce an optimized build of your application in build folder.
+
+### Deploy your application
+
+In order to produce a ready-to-deploy version of your application to deploy to Heroku:
+
+```sh
+npm run deploy
+```
+
+This will produce a ready-to-deploy version of your application in `deploy` folder. 
+Now you can deploy your application by running few commands:
+
+```sh
+cd deploy
+heroku login
+git init
+git add *
+git commit -m "deploying my-app"
+heroku create my-app
+git push heroku master
+```
+And within a few seconds, your application will be live at [https://my-app.herokuapp.com/](https://my-app.herokuapp.com/).
+
 ## License
 MERN App Generator is licensed under the [MIT License](https://github.com/shahzaibkhalid/mern-app-generator/blob/master/LICENSE).
 

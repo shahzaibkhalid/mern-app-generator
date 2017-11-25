@@ -1,7 +1,7 @@
 {
   "name": "mern-app-generator",
   "version": "0.2.2",
-  "description": "Most simplest way to start and build scalable MERN apps.",
+  "description": "Create, build and deploy MERN stack applications with breeze.",
   "main": "index.js",
   "scripts": {
     "client-dev": "webpack-dev-server --port 4000 --hot --inline",
