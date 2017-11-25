@@ -1,6 +1,6 @@
 {
   "name": "mern-app-generator",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Create, build and deploy MERN stack applications with breeze.",
   "main": "index.js",
   "scripts": {
