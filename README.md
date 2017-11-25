@@ -38,6 +38,7 @@ my-app
 ├── .gitignore
 ├── .babelrc
 ├── .npmignore
+├── .env
 ├── package-lock.json
 ├── deploy
 ├── build
@@ -83,7 +84,7 @@ In order to run the back-end development server:
 ```sh
 npm run server-dev
 ```
-This will automatically open the back-end Express.js server at [http://localhost:8000](http://localhost:8000).
+This will automatically open the back-end Express.js server at [http://localhost:8000](http://localhost:8000).<br>
 This back-end development server will communicate the client development server running at port 4000.
 
 ### Build an application
@@ -117,6 +118,18 @@ heroku create my-app
 git push heroku master
 ```
 And within a few seconds, your application will be live at [https://my-app.herokuapp.com/](https://my-app.herokuapp.com/).
+
+## Why Use This?
+If you're getting started with MERN stack, you'll find that it's somewhat troublesome to bring together all the pieces of your application. You'd likely use MERN App Generator, because it excludes you of:
+
+- Manually creating your application skeleton
+- Manually configuring your application
+- Manually installing necessary packages
+- Manually preparing your application production build
+- Manually preparing your application for deployment
+
+## Contributing
+This project aims at covering wide areas related to whole MERN ecosystem and thus requires active contributors to maintain the project efficiently. If you want to contribute, write to me at `me@shahzaibkhalid.com`.
 
 ## License
 MERN App Generator is licensed under the [MIT License](https://github.com/shahzaibkhalid/mern-app-generator/blob/master/LICENSE).
