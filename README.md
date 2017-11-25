@@ -13,7 +13,7 @@ MERN App Generator is a CLI-based tool that simplifies the process of creating, 
 Below is a quick overview of how to install MERN App Generator and how to create, build and deploy a MERN stack application from ground.
 
 ### Initial assumptions
-MERN App Generator is truly unopinionated and doesn't force you to follow a specific way to build and deploy and deploy your application. But some settings are default on the basis of what I think is better and simple to get start. MERN App generator assumes by defualt:
+MERN App Generator is truly unopinionated and doesn't force you to follow a specific way to build and deploy your application. But some settings are default on the basis of what I think is better and simple to get start. MERN App generator assumes by defualt:
 - MongoDB database server deployed to [mLab](https://mlab.com/).
 - Application (both front-end React and back-end Express based API) is deployed to [Heroku](https://www.heroku.com).
 - React based front-end development server is hosted on port 4000 by default.
