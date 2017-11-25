@@ -4,6 +4,7 @@
   </a>
 </p>
 <img align="center" alt="travis-ci" src="https://travis-ci.org/shahzaibkhalid/mern-app-generator.svg?branch=master">
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <h3 align="center">Create, build and deploy MERN stack applications with breeze.</h3>
 
 ## Introduction
