@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://shahzaibkhalid.github.io/modaljs">
-    <img alt="modal.js" src="https://raw.githubusercontent.com/shahzaibkhalid/mern-app-generator/master/static/logo.png" width="300"/>
+  <a href="https://shahzaibkhalid.github.io/mern-app-generator">
+    <img alt="mern-app-generator" src="https://raw.githubusercontent.com/shahzaibkhalid/mern-app-generator/master/static/logo.png" width="300"/>
   </a>
 </p>
-<img align="center" src="https://travis-ci.org/shahzaibkhalid/mern-app-generator.svg?branch=master">
+<img align="center" alt="mern-app-generator travis-ci" src="https://travis-ci.org/shahzaibkhalid/mern-app-generator.svg?branch=master">
 <h3 align="center">Create, build and deploy MERN stack applications with breeze.</h3>
 
 ## Introduction
