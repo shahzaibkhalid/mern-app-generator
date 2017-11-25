@@ -106,7 +106,7 @@ npm run deploy
 ```
 
 This will produce a ready-to-deploy version of your application in `deploy` folder. 
-Now you can deploy your application by running few commands:
+Now you can deploy your application by running few handful commands:
 
 ```sh
 cd deploy
@@ -127,6 +127,9 @@ If you're getting started with MERN stack, you'll find that it's somewhat troubl
 - Manually installing necessary packages
 - Manually preparing your application production build
 - Manually preparing your application for deployment
+
+## Report Bugs
+This project is relatively new so if you find any error, please consider [opening issues](https://github.com/shahzaibkhalid/mern-app-generator/issues).
 
 ## Contributing
 This project aims at covering wide areas related to whole MERN ecosystem and thus requires active contributors to maintain the project efficiently. If you want to contribute, write to me at `me@shahzaibkhalid.com`.
