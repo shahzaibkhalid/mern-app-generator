@@ -3,7 +3,7 @@
     <img alt="mern-app-generator" src="https://raw.githubusercontent.com/shahzaibkhalid/mern-app-generator/master/static/logo.png" width="300"/>
   </a>
 </p>
-<img align="center" alt="mern-app-generator travis-ci" src="https://travis-ci.org/shahzaibkhalid/mern-app-generator.svg?branch=master">
+<img align="center" alt="travis-ci" src="https://travis-ci.org/shahzaibkhalid/mern-app-generator.svg?branch=master">
 <h3 align="center">Create, build and deploy MERN stack applications with breeze.</h3>
 
 ## Introduction
