@@ -33,7 +33,7 @@ if (projectName !== undefined) {
   fs.mkdirSync(path.join(currentPath, projectName, 'deploy'));
   fs.mkdirSync(path.join(currentPath, projectName, 'app', 'server', 'src'));
   fs.closeSync(fs.openSync(path.join(currentPath, projectName, '.gitignore'), 'w'));
-  fs.writeFileSync(path.join(currentPath, projectName, '.gitignore'), `node_modules/\r\n.env`, 'utf-8');
+  fs.writeFileSync(path.join(currentPath, projectName, '.gitignore'), `node_modules/\r\n.env\r\ndeploy/\r\nbuild/`, 'utf-8');
   fs.closeSync(fs.openSync(path.join(currentPath, projectName, '.env'), 'w'));
   fs.writeFileSync(path.join(currentPath, projectName, '.env'), `mongodb://<dbuser>:<dbpassword>@ds<dbID>.mlab.com:<dbPort>/<dbname>`, 'utf-8');
   console.log();

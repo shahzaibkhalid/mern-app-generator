@@ -1,14 +1,8 @@
 {
   "name": "mern-app-generator",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Create, build and deploy MERN stack applications with breeze.",
   "main": "index.js",
-  "scripts": {
-    "client-dev": "webpack-dev-server --port 4000 --hot --inline",
-    "server-dev": "opn http://localhost:8000 && nodemon ./app/server/public/server.js localhost 8000",
-    "build": "webpack -p",
-    "deploy": "mern-scripts deploy"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/shahzaibkhalid/mern-app-generator.git"
