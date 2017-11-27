@@ -35,7 +35,7 @@ if (projectName !== undefined) {
   fs.closeSync(fs.openSync(path.join(currentPath, projectName, '.gitignore'), 'w'));
   fs.writeFileSync(path.join(currentPath, projectName, '.gitignore'), `node_modules/\r\n.env\r\ndeploy/\r\nbuild/`, 'utf-8');
   fs.closeSync(fs.openSync(path.join(currentPath, projectName, '.env'), 'w'));
-  fs.writeFileSync(path.join(currentPath, projectName, '.env'), `mongodb://<dbuser>:<dbpassword>@ds<dbID>.mlab.com:<dbPort>/<dbname>`, 'utf-8');
+  fs.writeFileSync(path.join(currentPath, projectName, '.env'), `URL=mongodb://<dbuser>:<dbpassword>@ds<dbID>.mlab.com:<dbPort>/<dbname>`, 'utf-8');
   console.log();
   console.log(chalk.blue.bgGreenBright(`Your project `) + chalk.black.bgGreenBright(projectName) + chalk.blue.bgGreenBright(' is generated.'));
 
