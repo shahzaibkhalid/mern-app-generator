@@ -1,3 +1,8 @@
+# 0.2.8
+
+- Update in README.md
+- Bug fixes
+
 # <0.2.7
 
 - Initial production-ready release
