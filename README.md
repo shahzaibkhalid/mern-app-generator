@@ -1,3 +1,5 @@
+**Current Status: No longer maintained.**
+
 <p align="center">
   <a href="https://shahzaibkhalid.github.io/mern-app-generator">
     <img alt="mern-app-generator" src="https://raw.githubusercontent.com/shahzaibkhalid/mern-app-generator/master/static/logo.png" width="300"/>
