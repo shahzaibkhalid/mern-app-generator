@@ -1,4 +1,4 @@
-**Current Status: No longer maintained.**
+**Current Status: No longer maintained.** ❌
 
 <p align="center">
   <a href="https://shahzaibkhalid.github.io/mern-app-generator">
